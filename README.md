@@ -1,2 +1,2 @@
 # Slate
-A online Proctored Examination Portal
+An online Proctored Examination Portal
