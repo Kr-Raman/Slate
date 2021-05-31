@@ -19,14 +19,15 @@ body
 }
 .header .logo{
     width: 30%;
+    height: 100%;
 }
 .header .logo img{
-    width: 70%;
-    height: 110%;
+    width: 80%;
+    height: 70%;
     /* height:30%; */
-    margin-top: -10px;
+    /* margin-top: -10px; */
     
-    border-radius: 50%;
+    border-radius: 80%;
     /* border: black solid ; */
     
 
@@ -54,10 +55,16 @@ body
     margin: 6%;
     list-style: none;
     font-weight: bold;
+    font-size: 1.25vw;
     /* width: fit-content; */
     padding:1%;
+}
 
-    
+.heading li:hover
+{
+    color: rgb(47, 112, 177);
+    font-weight: 1000;
+    border-bottom: solid 1px rgb(47, 112, 177);
 }
 
 .display{
@@ -74,21 +81,21 @@ body
 }
 .display .content p
 {
-    font-size: 4em;
+    font-size: 5vw;
     font-weight: bolder;
     margin: 5% 5% 1% 5%;
 
 }
 .display .content h3
 {
-    font-size: 3em;
+    font-size: 3vw;
     margin: 0% 5% 1% 5%;
     color: rgb(70, 71, 73);
     
 }
 .display .content h5
 {
-    font-size: 1em;
+    font-size: 1vw;
     width: 60%;
     letter-spacing: 0.02em;
     margin: 0% 5% 1% 5%;
@@ -96,27 +103,28 @@ body
     
 }
 .display .content button{
-    width: 200px;
-    height: 50px;
+    width: 11vw;
+    height: 3.5vw;
     margin: 5% 0.5% 5% 5% ;
     border: none;
     border-radius: 10px;
 }
 #signup
 {
-    background-color:rgb(47, 112, 177);
+    background-color:white;
+    border: solid rgb(47, 112, 177);
     font-weight: bold;
-    font-size: 1em;
-    color: white;
+    font-size: 1vw;
+    color:rgb(47, 112, 177) ;
 }
 #learnm
 {
     
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1vw;
     color: rgb(47, 112, 177);
-    border: solid rgb(47, 112, 177);
     background-color: white;
+    border: solid rgb(47, 112, 177);
 }
 
 .displaypic
@@ -124,10 +132,22 @@ body
     width: 50%;
     height: 100%;
     margin: 0 auto;
-
+    
 }
 .displaypic img{
     
-   width: 90%;
+    width: 90%;
 
 }
+
+#signup:hover{
+    background-color:rgb(47, 112, 177);;
+    
+    color: white;
+}
+#learnm:hover{
+    background-color:rgb(47, 112, 177);;
+    
+    color: white;
+}
+
