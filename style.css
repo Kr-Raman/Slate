@@ -231,10 +231,15 @@ body
   .Signupform
   {
     position: fixed;
-    top: 35%;
-    left: 40%; 
+    
+    /* margin: 0 auto; */
+    left: 40vw; 
+    top: 20vh;
 
-    max-width: 60rem;
+    width: auto;
+    height:35vw;
+
+     /* max-width: 60rem;  */
     background-color: #f3f3f3;
     padding: 5rem 6rem;
     box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
@@ -242,7 +247,59 @@ body
     transition: all 0.5s;
 
   }
+  .Signupform h1{
+      font-size: 3vw;
+  }
   .form{
       display: grid;
-      z-index: 10000;
+      width:fit-content;
+      
   }
+  .form label{
+      margin: 0.5vw;
+      font-size: 2vw;
+  }
+  .form input{
+      width: 12vw;
+      height: 2vw;
+      border: 1px solid rgb(219, 204, 204);
+      padding-left: 10px ;
+
+      
+  }
+  .form button{
+      margin: 2vw;
+      width: 9vw;
+      height: 2vw;
+      border-radius: 10px ;
+      border: none ;
+      background-color: grey;
+      color: white;
+      font-size: 1vw;
+
+
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.267);
+    backdrop-filter: blur(4px);
+    z-index: 100;
+    transition: all 0.5s;
+  }
+  .btn--close-modal {
+    
+    color: inherit;
+    float: right;
+    margin-left: 8px;
+   /* width: 2vw;
+   height: 2vw; */
+   font-size:2vw;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+ 
