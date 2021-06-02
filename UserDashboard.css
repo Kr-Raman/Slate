@@ -1,0 +1,115 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.sidebar
+{
+    width: 20vw;
+    height: 100vh;
+}
+#title
+{
+    font-weight: bolder;
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 2vw;
+    /* padding-left: 20px; */
+}
+.sidebar .profileDetails
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.sidebar .profileDetails img
+{
+    border-radius: 50% ;
+    object-fit: cover;
+    width: 3.5vw;
+    height: 3.5vw;
+    margin: 0vw 1vw 0vw 0vw;
+    
+}
+/* SIDE BAR LINK */
+.links
+{
+    display: grid;
+    margin-top:4vw ;
+}
+.links span{
+    display: flex;
+    margin: 0.2vw ;
+}
+.links img
+{
+    border-radius: 50% ;
+    object-fit: cover;
+    width: 3vw; 
+    height: 3vw; 
+    margin: 3px 0px 0px 10px  ;
+}
+.links a{
+    text-decoration: none;
+    margin:15px ;
+    
+}
+.links a:link{
+    color: rgb(171, 169, 204);
+    
+    
+}
+.links a:hover{
+    color: rgb(16, 59, 77);
+    font-weight: 600;
+    
+}
+#logout
+{
+    margin-top: 20vh ;
+}
+
+/* Middle main Dashboard */
+.dashboard
+{
+    width: 60vw;
+    height: 100%;
+    background-color: rgb(180, 215, 226);
+    
+}
+
+#midtitle
+{
+    font-size: 3vw;
+    font-weight: 500;
+    margin-left: 2vw;
+    margin-top: 3vw;
+}
+
+.updates
+{
+    width: 50vw;
+    height: 10vw;
+    margin: auto;
+    top: 4vw;
+    border-radius: 10px;
+    position: relative;
+    
+    background-color: white;
+}
+.updates .uphead
+{
+    font-size: 1.5vw;
+    
+
+}
+
