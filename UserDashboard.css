@@ -94,7 +94,13 @@ body{
     height: 100vh;
     background-color: rgb(197, 235, 247);
     overflow: auto;
+    scroll-behavior: smooth;
     
+    
+}
+.dashboard::-webkit-scrollbar
+{
+    display: none;
 }
 
 #midtitle
@@ -208,4 +214,56 @@ body{
 {
     font-size: 1.2vw;
     font-weight: 650;
+}
+
+.userRegister
+{
+    width: 50vw;
+    height: fit-content;
+    margin: 30px auto;
+    background-color: rgb(197, 235, 247);
+
+    
+
+}
+.Block_title
+{
+    font-weight: 500;
+    font-size: 1.7vw;
+}
+.regContainer
+{
+    width: 45vw;
+    margin:20px auto;
+    height: fit-content;
+    background-color: honeydew;
+    padding: 35px;
+}
+.apTitle
+{
+    font-size: 1.5vw;
+    color: rgb(37, 139, 170);
+    font-weight: 500;
+    
+}
+.apCount
+{
+    font-size: 1vw;
+    font-weight: 500;
+}
+.regTable
+{
+    width: 40vw;
+    margin: 20px auto;
+}
+.regTable table
+{
+    width: inherit;
+}
+.regTable tr{
+    font-size: 1vw;
+}
+.regTable th{
+    background-color: rgb(195, 236, 236);
+    text-align: center;
 }
