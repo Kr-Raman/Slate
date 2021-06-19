@@ -79,14 +79,20 @@
 .main_header {
   width: 100%;
   height: 3.5vw;
-  background-color: blueviolet;
+  background-color: rgb(234, 230, 238);
+}
+.main_header p{
+    font-size: 2vw;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 3px;
 }
 
 .main_dashboard {
   width: 70vw;
   height: fit-content;
   margin: 50px auto;
-  background-color: cornflowerblue;
+  background-color: rgba(223, 224, 224, 0.678);
 }
 .main_heading_head {
   width: 100%;
@@ -94,9 +100,31 @@
 }
 .section_1 {
   width: 60%;
-  height: fit-content;
+  height: 6vw;
 }
 .section_2 {
   width: 40%;
   height: fit-content;
+}
+
+.heading_1
+{
+    font-weight: 600;
+    font-size: 1.5vw;
+    width: 90%;
+    height:3vw;
+    margin: 0 auto;
+}
+.heading_1 p
+{
+    margin-top: 13px;
+}
+
+.heading_2
+{
+    font-weight: 500;
+    font-size: 1vw;
+    width: 90%;
+    height:1vw;  
+    margin: auto;
 }
